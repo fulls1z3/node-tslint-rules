@@ -8,8 +8,7 @@
   },
   "keywords": [
     "linting-rules",
-    "tslint",
-    "angular"
+    "tslint"
   ],
   "author": {
     "name": "Burak Tasci",
