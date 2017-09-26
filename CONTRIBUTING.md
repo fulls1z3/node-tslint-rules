@@ -1,6 +1,6 @@
-# Contributing to angular-tslint-rules
+# Contributing to backend-tslint-rules
 
-We would love for you to contribute to **`angular-tslint-rules`** and help make it even better than it is today! As a contributor,
+We would love for you to contribute to **`backend-tslint-rules`** and help make it even better than it is today! As a contributor,
 here are the guidelines we would like you to follow:
 
  - [Code of Conduct](#coc)
@@ -11,7 +11,7 @@ here are the guidelines we would like you to follow:
  - [Commit message guidelines](#commit)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep **`angular-tslint-rules`** open and inclusive. Please read and follow our [Code of Conduct][coc].
+Help us keep **`backend-tslint-rules`** open and inclusive. Please read and follow our [Code of Conduct][coc].
 
 ## <a name="issue"></a> Found a Bug?
 If you find a bug in the source code, you can help us by [submitting an issue](#submit-issue) to our [GitHub Repository][github].
@@ -58,12 +58,12 @@ the problem before we can fix it.
 Unfortunately we are not able to investigate / fix bugs without a minimal reproduction, so if we don't hear back from you,
 we are going to close an issue that don't have enough info to be reproduced.
 
-You can file new issues by filling out our [new issue form](https://github.com/ng-seed/angular-tslint-rules/issues/new).
+You can file new issues by filling out our [new issue form](https://github.com/fulls1z3/backend-tslint-rules/issues/new).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-* Search [GitHub](https://github.com/ng-seed/angular-tslint-rules/pulls) for an open or closed PR that relates to your submission.
+* Search [GitHub](https://github.com/fulls1z3/backend-tslint-rules/pulls) for an open or closed PR that relates to your submission.
 You don't want to duplicate effort.
 * Make your changes in a new git branch:
      ```shell
@@ -82,7 +82,7 @@ You don't want to duplicate effort.
     ```shell
     git push origin my-fix-branch
     ```
-* In GitHub, send a pull request to `angular-tslint-rules:master`.
+* In GitHub, send a pull request to `backend-tslint-rules:master`.
 * If we suggest changes then:
   * Make the required updates.
   * Re-run the test suites to ensure tests are still passing.
@@ -120,7 +120,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ## <a name="commit"></a> Commit message guidelines
 We have very precise rules over how our git commit messages can be formatted. This leads to **more readable messages** that
 are easy to follow when looking through the **project history**. But also, we use the git commit messages to **generate
-the `angular-tslint-rules` change log**.
+the `backend-tslint-rules` change log**.
 
 ### Commit Message Format
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special format that includes
@@ -141,7 +141,7 @@ well as in various git tools.
 Footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/)
 if any.
 
-Samples: (even more [samples](https://github.com/ng-seed/angular-tslint-rules/commits/master))
+Samples: (even more [samples](https://github.com/fulls1z3/backend-tslint-rules/commits/master))
 ```
 docs(changelog): update change log to alpha.4
 ```
@@ -171,7 +171,7 @@ Must be one of the following:
 The scope should be the name of the project affected.
 
 The following is the list of supported scopes:
-* **atr** (*angular-tslint-rules*)
+* **btr** (*backend-tslint-rules*)
 
 There are currently a few exceptions to the "use project name" rule:
 
@@ -195,5 +195,5 @@ this commit **Closes**.
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit
 message is then used for this.
 
-[coc]: https://github.com/ng-seed/angular-tslint-rules/blob/master/CODE_OF_CONDUCT.md
-[github]: https://github.com/ng-seed/angular-tslint-rules
+[coc]: https://github.com/fulls1z3/backend-tslint-rules/blob/master/CODE_OF_CONDUCT.md
+[github]: https://github.com/fulls1z3/backend-tslint-rules

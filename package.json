@@ -1,10 +1,10 @@
 {
-  "name": "angular-tslint-rules",
-  "version": "1.0.4",
-  "description": "Shared TSLint & codelyzer rules to enforce a consistent code style for Angular development",
+  "name": "backend-tslint-rules",
+  "version": "1.0.0",
+  "description": "Shared TSLint rules to enforce a consistent code style for backend development with TypeScript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ng-seed/angular-tslint-rules.git"
+    "url": "https://github.com/fulls1z3/backend-tslint-rules.git"
   },
   "keywords": [
     "linting-rules",
@@ -17,9 +17,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ng-seed/angular-tslint-rules/issues"
+    "url": "https://github.com/fulls1z3/backend-tslint-rules/issues"
   },
-  "homepage": "https://github.com/ng-seed/angular-tslint-rules#readme",
+  "homepage": "https://github.com/fulls1z3/backend-tslint-rules#readme",
   "scripts": {
     "ci:before": "greenkeeper-lockfile-update",
     "ci:after": "greenkeeper-lockfile-upload",
@@ -30,7 +30,6 @@
     "standard-version": "^4.2.0"
   },
   "peerDependencies": {
-    "codelyzer": ">=3.1.2",
     "tslint": ">=5.7.0"
   }
 }

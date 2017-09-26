@@ -1,36 +1,34 @@
-# angular-tslint-rules [![npm version](https://badge.fury.io/js/angular-tslint-rules.svg)](https://www.npmjs.com/package/angular-tslint-rules) [![npm downloads](https://img.shields.io/npm/dm/angular-tslint-rules.svg)](https://www.npmjs.com/package/angular-tslint-rules)
+# backend-tslint-rules [![npm version](https://badge.fury.io/js/backend-tslint-rules.svg)](https://www.npmjs.com/package/backend-tslint-rules) [![npm downloads](https://img.shields.io/npm/dm/backend-tslint-rules.svg)](https://www.npmjs.com/package/backend-tslint-rules)
 
-Shared [TSLint] & [codelyzer] rules to enforce a consistent code style for [Angular] development
+Shared [TSLint] rules to enforce a consistent code style for backend development with [TypeScript]
 
-[![CircleCI](https://circleci.com/gh/ng-seed/angular-tslint-rules.svg?style=shield)](https://circleci.com/gh/ng-seed/angular-tslint-rules)
+[![CircleCI](https://circleci.com/gh/fulls1z3/backend-tslint-rules.svg?style=shield)](https://circleci.com/gh/fulls1z3/backend-tslint-rules)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ng-seed/angular-tslint-rules.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/fulls1z3/backend-tslint-rules.svg)](https://greenkeeper.io/)
 
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
 The value of the software produced is directly affected by the **quality of the codebase**, and not every developer might
 - be **aware of the potential pitfalls** of certain constructions in [TypeScript],
-- be **introduced into certain conventions** when using the [Angular] framework,
 - know that not every developer is as capable in **understanding an elegant** (*but abstract*) **solution** as the original
 developer.
 
-For that purpose, we need to use **static code analysis tools** such as [TSLint] and [codelyzer] to check readability, maintainability,
+For that purpose, we need to use **static code analysis tools** such as [TSLint] to check readability, maintainability,
 and functionality errors.
 
 Although complying with these tools may seem to appear as **undesired overhead** or may **limit creativity**, it becomes
 **easier** for any new developers to **read**, **preventing** a lot of **time/frustration spent** figuring out the structure
 and characteristics of the code.
 
-Containing a set of [TSLint] and [codelyzer] rules, **`angular-tslint-rules`** has been compiled using many contributions
+Containing a set of [TSLint] rules, **`backend-tslint-rules`** has been compiled using many contributions
 from colleagues, commercial/open-source projects and some other sources from the Internet, as well as years of development
 using the [Angular] framework.
 
 If you have questions, comments or suggestions, just create an issue on this repository. I'll try to revise and republish
-these rules with new insights, experiences and remarks in alignment with the updates on [TSLint] and [codelyzer].
+these rules with new insights, experiences and remarks in alignment with the updates on [TSLint].
 
 **Note**: The following set of rules depend on:
 - [TSLint] v5.7.0
-- [codelyzer] v3.1.2
 
 ## Table of contents:
 - [Getting started](#getting-started)
@@ -64,18 +62,17 @@ these rules with new insights, experiences and remarks in alignment with the upd
     - [Inline Comments](#inline-comments)
     - [JSDoc Comments](#jsdoc-comments)
   - [Misc](#misc)
-  - [Codelyzer rules](#codelyzer-rules)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## <a name="getting-started"></a> Getting started
 ### <a name="installation"></a> Installation
-You can install **`angular-tslint-rules`** using `npm`
+You can install **`backend-tslint-rules`** using `npm`
 ```
-npm install angular-tslint-rules --save
+npm install backend-tslint-rules --save
 ```
 
-**Note**: You should have already installed [TSLint] and [codelyzer].
+**Note**: You should have already installed [TSLint].
 
 ## <a name="usage"></a> Usage
 To use these [TSLint] rules, use **configuration inheritance** via the **`extends`** keyword.
@@ -83,10 +80,7 @@ To use these [TSLint] rules, use **configuration inheritance** via the **`extend
 A sample configuration is shown below, where `tslint.json` lives adjacent to your `node_modules` folder:
 ```json
 {
-  "rulesDirectory": [
-    "node_modules/codelyzer"
-  ],
-  "extends": ["angular-tslint-rules"],
+  "extends": ["backend-tslint-rules"],
   "rules": {
     // override tslint rules here
     ...
@@ -757,55 +751,6 @@ attacks*).
 "no-sparse-arrays": true
 ```
 
-### <a name="codelyzer-rules"></a> Codelyzer rules
-```json
-"angular-whitespace": [
-  true,
-  "check-interpolation",
-  "check-pipe"
-],
-"banana-in-box": true,
-"templates-no-negated-async": true,
-"directive-selector": [
-  true,
-  "attribute",
-  [
-    "ngx",
-    "test"
-  ],
-  "camelCase"
-],
-"component-selector": [
-  true,
-  "element",
-  [
-    "ngx",
-    "test"
-  ],
-  "kebab-case"
-],
-"use-input-property-decorator": true,
-"use-output-property-decorator": true,
-"use-host-property-decorator": true,
-"no-attribute-parameter-decorator": true,
-"no-input-rename": true,
-"no-output-rename": true,
-"no-forward-ref": true,
-"use-life-cycle-interface": true,
-"use-pipe-transform-interface": true,
-"pipe-naming": [
-  true,
-  "camelCase",
-  "ngx"
-],
-"component-class-suffix": true,
-"directive-class-suffix": true,
-"templates-use-public": true,
-"no-access-missing-member": true,
-"invoke-injectable": true,
-"template-to-ng-template": true
-```
-
 ## <a name="contributing"></a> Contributing
 If you want to file a bug, contribute some code, or improve documentation, please read up on the following contribution guidelines:
 - [Issue guidelines](CONTRIBUTING.md#submit)
@@ -819,8 +764,6 @@ The MIT License (MIT)
 Copyright (c) 2017 [Burak Tasci]
 
 [TSLint]: https://github.com/palantir/tslint
-[codelyzer]: https://github.com/mgechev/codelyzer
-[Angular]: https://angular.io
 [TypeScript]: https://github.com/Microsoft/TypeScript
 [JSDoc]: http://usejsdoc.org
 [Burak Tasci]: https://github.com/fulls1z3
