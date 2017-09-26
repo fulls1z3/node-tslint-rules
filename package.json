@@ -23,7 +23,7 @@
   "scripts": {
     "ci:before": "greenkeeper-lockfile-update",
     "ci:after": "greenkeeper-lockfile-upload",
-    "release": "npm run standard-version"
+    "release": "standard-version"
   },
   "main": "./tslint.json",
   "devDependencies": {
