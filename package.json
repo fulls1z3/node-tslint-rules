@@ -29,6 +29,6 @@
     "standard-version": "^4.2.0"
   },
   "peerDependencies": {
-    "tslint": ">=5.7.0"
+    "tslint": ">=5.8.0"
   }
 }
