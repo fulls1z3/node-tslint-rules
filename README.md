@@ -28,7 +28,7 @@ If you have questions, comments or suggestions, just create an issue on this rep
 these rules with new insights, experiences and remarks in alignment with the updates on [TSLint].
 
 **Note**: The following set of rules depend on:
-- [TSLint] v5.8.0
+- [TSLint] v5.9.0
 
 ## Table of contents:
 - [Getting started](#getting-started)
@@ -239,7 +239,12 @@ them is allowed by TypeScript*).
 - *Do not use* **implied global variables**.
 - *Do not define* a variable on the **global scope** from within a **smaller scope**.
 ```json
-"no-shadowed-variable": true
+"no-shadowed-variable": [
+  true,
+  {
+    "temporalDeadZone": false
+  }
+],
 ```
 
 - Declare **one variable** at a time (*except in loops*).
@@ -406,6 +411,11 @@ them is allowed by TypeScript*).
 - In a binary expression, a **literal** should always be on the **right-hand side**.
 ```json
 "binary-expression-operand-order": true
+```
+
+- *Do not use* the **`delete`** operator with dynamic key expressions.
+```json
+"no-dynamic-delete": true
 ```
 
 - *Do not use* **bitwise** operators.
@@ -613,6 +623,11 @@ Empty lines improve code readability by allowing the developer to logically grou
 "newline-before-return": true
 ```
 
+- There should be a **separate line** for each **chained** method call.
+```json
+"newline-per-chained-call": true
+```
+
 - For each **function**, **anonymous function**, **class member**, **constructor**, **`else`**, **`catch`** and **`finally`**
 statements;
   - There should be **one space** between the right parenthesis **`)`** and the left curly **`{`** brace that begins the
@@ -789,12 +804,17 @@ If you want to file a bug, contribute some code, or improve documentation, pleas
 - [Coding rules](CONTRIBUTING.md#rules)
 - [ChangeLog](CHANGELOG.md)
 
+#### Thanks to
+- [JetBrains], for their support to this open source project with free [WebStorm] licenses.
+
 ## <a name="license"></a> License
 The MIT License (MIT)
 
-Copyright (c) 2017 [Burak Tasci]
+Copyright (c) 2018 [Burak Tasci]
 
 [TSLint]: https://github.com/palantir/tslint
 [TypeScript]: https://github.com/Microsoft/TypeScript
 [JSDoc]: http://usejsdoc.org
+[JetBrains]: https://www.jetbrains.com/community/opensource
+[WebStorm]:   https://www.jetbrains.com/webstorm
 [Burak Tasci]: https://github.com/fulls1z3
