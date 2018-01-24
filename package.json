@@ -8,7 +8,9 @@
   },
   "keywords": [
     "linting-rules",
-    "tslint"
+    "tslint",
+    "backend",
+    "nodejs"
   ],
   "author": {
     "name": "Burak Tasci",
@@ -26,9 +28,9 @@
   },
   "main": "./tslint.json",
   "devDependencies": {
-    "standard-version": "^4.2.0"
+    "standard-version": "~4.3.0"
   },
   "peerDependencies": {
-    "tslint": ">=5.8.0"
+    "tslint": ">=5.9.0"
   }
 }
