@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.1.0...v1.2.0) (2018-01-24)
+
+
+### Bug Fixes
+
+* **btr:** fix docs & rules ([#4](https://github.com/fulls1z3/backend-tslint-rules/issues/4)) ([39f27eb](https://github.com/fulls1z3/backend-tslint-rules/commit/39f27eb))
+
+
+### Features
+
+* **btr:** update rules to tslint v5.9.0 ([#3](https://github.com/fulls1z3/backend-tslint-rules/issues/3)) ([4309fa2](https://github.com/fulls1z3/backend-tslint-rules/commit/4309fa2))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.0.0...v1.1.0) (2017-11-27)
 ### Features
