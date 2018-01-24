@@ -1,6 +1,6 @@
 {
   "name": "backend-tslint-rules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Shared TSLint rules to enforce a consistent code style for backend development with TypeScript",
   "repository": {
     "type": "git",
