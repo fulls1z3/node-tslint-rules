@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.12.0"></a>
+# [1.12.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.4.0...v1.12.0) (2018-12-18)
+
+
+### Features
+
+* **btr:** update rules (tslint@5.12.0) ([#11](https://github.com/fulls1z3/backend-tslint-rules/issues/11)) ([80f4799](https://github.com/fulls1z3/backend-tslint-rules/commit/80f4799))
+
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.3.1...v1.4.0) (2018-07-23)
 
