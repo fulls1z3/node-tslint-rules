@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.12.1"></a>
+## 1.12.1 (2018-12-20)
+
+
+### Bug Fixes
+
+* **btr:** fix docs & rules ([#4](https://github.com/fulls1z3/backend-tslint-rules/issues/4)) ([39f27eb](https://github.com/fulls1z3/backend-tslint-rules/commit/39f27eb))
+* **btr:** fix rule `comment-format` ([#7](https://github.com/fulls1z3/backend-tslint-rules/issues/7)) ([4feab95](https://github.com/fulls1z3/backend-tslint-rules/commit/4feab95))
+* **btr:** remove no-inferred-empty-object-type ([76f2337](https://github.com/fulls1z3/backend-tslint-rules/commit/76f2337))
+
+
+### Features
+
+* **atr:** add new rules ([64f994a](https://github.com/fulls1z3/backend-tslint-rules/commit/64f994a))
+* **atr:** add new rules ([402a256](https://github.com/fulls1z3/backend-tslint-rules/commit/402a256))
+* **atr:** update rules ([1bdeb2e](https://github.com/fulls1z3/backend-tslint-rules/commit/1bdeb2e))
+* **atr:** update rules ([fc7314c](https://github.com/fulls1z3/backend-tslint-rules/commit/fc7314c))
+* **btr:** update backend rules ([ccc9cf1](https://github.com/fulls1z3/backend-tslint-rules/commit/ccc9cf1))
+* **btr:** update curly braces and grouped imports per ASG ([ed8d1dd](https://github.com/fulls1z3/backend-tslint-rules/commit/ed8d1dd))
+* **btr:** update rules (tslint@5.10.0) ([#6](https://github.com/fulls1z3/backend-tslint-rules/issues/6)) ([8181514](https://github.com/fulls1z3/backend-tslint-rules/commit/8181514))
+* **btr:** update rules (tslint@5.11.0) ([#9](https://github.com/fulls1z3/backend-tslint-rules/issues/9)) ([e9373bb](https://github.com/fulls1z3/backend-tslint-rules/commit/e9373bb))
+* **btr:** update rules (tslint@5.12.0) ([#11](https://github.com/fulls1z3/backend-tslint-rules/issues/11)) ([80f4799](https://github.com/fulls1z3/backend-tslint-rules/commit/80f4799))
+* **btr:** update rules to tslint v5.8.0 ([#2](https://github.com/fulls1z3/backend-tslint-rules/issues/2)) ([6d02d59](https://github.com/fulls1z3/backend-tslint-rules/commit/6d02d59))
+* **btr:** update rules to tslint v5.8.0 ([#3](https://github.com/fulls1z3/backend-tslint-rules/issues/3)) ([4309fa2](https://github.com/fulls1z3/backend-tslint-rules/commit/4309fa2))
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.4.0...v1.12.0) (2018-12-18)
 
