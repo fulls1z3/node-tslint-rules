@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.12.1"></a>
+# [1.12.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.12.0...v1.12.1) (2018-12-20)
+
+
+### Bug Fixes
+
+* **btr:** remove no-inferred-empty-object-type ([76f2337](https://github.com/fulls1z3/backend-tslint-rules/commit/76f2337))
+
+
+### Features
+
+* **btr:** update curly braces and grouped imports per ASG ([ed8d1dd](https://github.com/fulls1z3/backend-tslint-rules/commit/ed8d1dd))
+
+
+
 <a name="1.12.0"></a>
 # [1.12.0](https://github.com/fulls1z3/backend-tslint-rules/compare/v1.4.0...v1.12.0) (2018-12-18)
 
