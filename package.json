@@ -28,9 +28,9 @@
   },
   "main": "./tslint.json",
   "devDependencies": {
-    "standard-version": "~4.4.0"
+    "standard-version": "^5.0.2"
   },
   "peerDependencies": {
-    "tslint": ">=5.12.0"
+    "tslint": ">=5.14.0"
   }
 }

@@ -161,6 +161,11 @@ A sample configuration is shown below, where `tslint.json` lives adjacent to you
 ]
 ```
 
+- *Do not use* **`this`** in static methods.
+```json
+"static-this": true
+```
+
 - *Do not assign* **`this`** to local **variables**.
 ```json
 "no-this-assignment": true
@@ -544,12 +549,22 @@ them is allowed by TypeScript*).
 ]
 ```
 
+- *Do not* **compare** to two **equal variables/literals** as operands (*ex: `3 === 3`, `someVar === someVar`*).
+```json
+"no-tautology-expression": true
+```
+
 - *Do not* **compare** to a **boolean literal** (*ex: `x === true`*).
 ```json
 "no-boolean-literal-compare": true
 ```
 
-- *Do not use* any *always* **truthy**/**falsy** condition in **boolean expressions** (*ex: `val || undefined`*). 
+- *Do not use* **else** blocks ending with a `break`, `continue`, `return` or `throw` statement.
+```json
+"unnecessary-else": true
+```
+
+- *Do not use* any *always* **truthy**/**falsy** condition in **boolean expressions** (*except right-hand operand `&&` or `||`*). 
 ```json
 "strict-boolean-expressions": [
   true,
@@ -557,7 +572,8 @@ them is allowed by TypeScript*).
   "allow-string",
   "allow-enum",
   "allow-number",
-  "allow-mix"
+  "allow-mix",
+  "allow-rhs"
 ]
 ```
 
@@ -841,12 +857,14 @@ statements;
 
 #### <a name="variables-and-functions"></a> Variables and Functions
 - All **variable**, and **function names** should be in **camelCase**.
+- All **variables** with **UPPER_CASE** names must be **const**.
 - *Do not use* **trailing** underscore **`_`** characters.
 ```json
 "variable-name": [
   true,
   "check-format",
   "allow-leading-underscore",
+  "require-const-for-all-caps",
   "ban-keywords"
 ]
 ```
