@@ -28,7 +28,7 @@ If you have questions, comments or suggestions, just create an issue on this rep
 these rules with new insights, experiences and remarks in alignment with the updates on [TSLint].
 
 **Note**: The following set of rules depend on:
-- [TSLint] v5.12.0
+- [TSLint] v5.15.0
 
 ## Table of contents:
 - [Getting started](#getting-started)
@@ -431,6 +431,11 @@ them is allowed by TypeScript*).
 - *Do not use* the **`null`** keyword, always return **`undefined`** instead of a **`null`** reference.
 ```json
 "no-null-keyword": true
+```
+
+- *Do not use* explicitly declared or implicitly returned **union types** with both **`null`** and **`undefined`** as members.
+```json
+"no-null-undefined-union": true
 ```
 
 - *Do not use* **non-null** assertions.
