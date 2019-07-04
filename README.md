@@ -1,10 +1,10 @@
-# backend-tslint-rules [![npm version](https://badge.fury.io/js/backend-tslint-rules.svg)](https://www.npmjs.com/package/backend-tslint-rules) [![npm downloads](https://img.shields.io/npm/dm/backend-tslint-rules.svg)](https://www.npmjs.com/package/backend-tslint-rules)
+# node-tslint-rules [![npm version](https://badge.fury.io/js/node-tslint-rules.svg)](https://www.npmjs.com/package/node-tslint-rules) [![npm downloads](https://img.shields.io/npm/dm/node-tslint-rules.svg)](https://www.npmjs.com/package/node-tslint-rules)
 
 Shared [TSLint] rules to enforce a consistent code style for backend development with [TypeScript]
 
-[![CircleCI](https://circleci.com/gh/fulls1z3/backend-tslint-rules.svg?style=shield)](https://circleci.com/gh/fulls1z3/backend-tslint-rules)
+[![CircleCI](https://circleci.com/gh/fulls1z3/node-tslint-rules.svg?style=shield)](https://circleci.com/gh/fulls1z3/node-tslint-rules)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![Greenkeeper badge](https://badges.greenkeeper.io/fulls1z3/backend-tslint-rules.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/fulls1z3/node-tslint-rules.svg)](https://greenkeeper.io/)
 
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
@@ -20,7 +20,7 @@ Although complying with these tools may seem to appear as **undesired overhead**
 **easier** for any new developers to **read**, **preventing** a lot of **time/frustration spent** figuring out the structure
 and characteristics of the code.
 
-Containing a set of [TSLint] rules, **`backend-tslint-rules`** has been compiled using many contributions
+Containing a set of [TSLint] rules, **`node-tslint-rules`** has been compiled using many contributions
 from colleagues, commercial/open-source projects and some other sources from the Internet, as well as years of development
 using the [Angular] framework.
 
@@ -69,9 +69,9 @@ these rules with new insights, experiences and remarks in alignment with the upd
 
 ## <a name="getting-started"></a> Getting started
 ### <a name="installation"></a> Installation
-You can install **`backend-tslint-rules`** using `npm`
+You can install **`node-tslint-rules`** using `npm`
 ```
-npm install backend-tslint-rules --save
+npm install node-tslint-rules --save
 ```
 
 **Note**: You should have already installed [TSLint].
@@ -82,7 +82,7 @@ To use these [TSLint] rules, use **configuration inheritance** via the **`extend
 A sample configuration is shown below, where `tslint.json` lives adjacent to your `node_modules` folder:
 ```json
 {
-  "extends": ["backend-tslint-rules"],
+  "extends": ["node-tslint-rules"],
   "rules": {
     // override tslint rules here
     ...
