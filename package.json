@@ -1,10 +1,10 @@
 {
-  "name": "backend-tslint-rules",
+  "name": "node-tslint-rules",
   "version": "1.14.0",
   "description": "Shared TSLint rules to enforce a consistent code style for backend development with TypeScript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fulls1z3/backend-tslint-rules.git"
+    "url": "https://github.com/fulls1z3/node-tslint-rules.git"
   },
   "keywords": [
     "linting-rules",
@@ -18,9 +18,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fulls1z3/backend-tslint-rules/issues"
+    "url": "https://github.com/fulls1z3/node-tslint-rules/issues"
   },
-  "homepage": "https://github.com/fulls1z3/backend-tslint-rules#readme",
+  "homepage": "https://github.com/fulls1z3/node-tslint-rules#readme",
   "scripts": {
     "ci:before": "greenkeeper-lockfile-update",
     "ci:after": "greenkeeper-lockfile-upload",
