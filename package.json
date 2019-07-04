@@ -1,6 +1,6 @@
 {
   "name": "node-tslint-rules",
-  "version": "1.14.0",
+  "version": "0.0.0",
   "description": "Shared TSLint rules to enforce a consistent code style for backend development with TypeScript",
   "repository": {
     "type": "git",
@@ -51,40 +51,7 @@
         "@semantic-release/commit-analyzer",
         {
           "preset": "angular",
-          "releaseRules": [
-            {
-              "type": "build",
-              "release": "patch"
-            },
-            {
-              "type": "chore",
-              "release": "patch"
-            },
-            {
-              "type": "ci",
-              "release": "patch"
-            },
-            {
-              "type": "docs",
-              "release": "patch"
-            },
-            {
-              "type": "feat",
-              "release": "minor"
-            },
-            {
-              "type": "fix",
-              "release": "patch"
-            },
-            {
-              "type": "refactor",
-              "release": "patch"
-            },
-            {
-              "type": "style",
-              "release": "patch"
-            }
-          ],
+          "releaseRules": "./release-rules.js",
           "parserOpts": {
             "noteKeywords": [
               "BREAKING CHANGE",
