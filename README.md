@@ -28,7 +28,7 @@ If you have questions, comments or suggestions, just create an issue on this rep
 these rules with new insights, experiences and remarks in alignment with the updates on [TSLint].
 
 **Note**: The following set of rules depend on:
-- [TSLint] v5.16.0
+- [TSLint] v5.17.0
 
 ## Table of contents:
 - [Getting started](#getting-started)
