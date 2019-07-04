@@ -645,7 +645,10 @@ blocks.
 ```json
 "max-line-length": [
   true,
-  140
+  {
+    "limit": 140,
+    "ignore-pattern": "^import |^export {(.*?)}|class [a-zA-Z]+ implements |// "
+  }
 ]
 ```
 
