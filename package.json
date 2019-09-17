@@ -37,7 +37,7 @@
     "semantic-release": "^15.13.24"
   },
   "peerDependencies": {
-    "tslint": ">=5.19.0"
+    "tslint": ">=5.20.0"
   },
   "husky": {
     "hooks": {
