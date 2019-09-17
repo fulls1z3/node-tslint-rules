@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - run: sudo npm install -g yarn@0
-      - run: sudo npm install -g semantic-release@15.13.23
+      - run: sudo npm install -g semantic-release@15
       - run: sudo yarn global add greenkeeper-lockfile@1
       - restore_cache:
           keys:
