@@ -20,4 +20,4 @@ jobs:
           paths: 'node_modules'
       - run: yarn ci:before
       - run: yarn ci:after
-      - run: npx semantic-release
+      - run: npx semantic-release@15.13.24 --debug
