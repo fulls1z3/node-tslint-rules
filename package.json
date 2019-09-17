@@ -1,7 +1,7 @@
 {
   "name": "node-tslint-rules",
   "version": "0.0.0",
-  "description": "Shared TSLint rules to enforce a consistent code style for backend development with TypeScript",
+  "description": "Shared TSLint rules to enforce a consistent code style for Node.js development with TypeScript",
   "repository": {
     "type": "git",
     "url": "https://github.com/fulls1z3/node-tslint-rules.git"
@@ -37,7 +37,7 @@
     "semantic-release": "^15.13.24"
   },
   "peerDependencies": {
-    "tslint": ">=5.18.0"
+    "tslint": ">=5.19.0"
   },
   "husky": {
     "hooks": {
